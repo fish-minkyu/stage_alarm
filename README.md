@@ -1184,7 +1184,7 @@ public class OAuth2SuccessHandler
         Cookie jwtCookie = new Cookie("auth_token", jwt); // "auth_token"은 쿠키의 이름입니다.
 
         // 쿠키 설정 (옵션)
-        jwtCookie.setHttpOnly(false); // JavaScript를 통한 접근 방지 false -> 프론트에서 바로 꺼내고 지울용도임
+        jwtCookie.setHttpOnly(true);
         jwtCookie.setSecure(true); // HTTPS 를 통해서만 쿠키를 전송
         jwtCookie.setPath("/"); // 사이트 전역에서 쿠키 접근 가능
 
