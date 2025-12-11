@@ -74,11 +74,11 @@
     <img src="https://img.shields.io/badge/Jsoup-304CB2?style=flat-square&logo=jsoup&logoColor=white"/>
 </div>
 
-<details>
-<summary><strong>기획 과정</strong></summary>
+---
 
+### 👊🏻기획 과정
 
-<p style="font-size: 20px">매주 평일, 오후 13:00에 간단한 회의 진행(기획 아이템 토의, 진행상황 & 특이사항 공유)</p>
+매주 평일, 오후 13:00에 간단한 회의 진행(기획 아이템 토의, 진행상황 & 특이사항 공유
 
 ![conference](image/coffee-chat.png)
 
@@ -109,10 +109,10 @@
 ---
  
 ![justice](image/request.png)
-</details>
 
-<details>
-<summary><strong>아키텍처</strong></summary>
+---
+
+<p style="font-size: 30px">Unlogin 아키텍처</p>
 
 MSA 아키텍처로 구성
 
@@ -125,23 +125,27 @@ MSA 아키텍처로 구성
 
 - Version. B (AWS EC2 CI/CD)
 ![version-b](image/version-b.png)
-</details>
 
-<details>
-<summary><strong>ERD</strong></summary>
+---
+
+### 💾ERD
 
 ![ERD](image/ERD.png)
-</details>
 
+---
+
+### 📄API 명세서
 <details>
 <summary><strong>API 명세서</strong></summary>
 
 http://localhost:8080/swagger-ui/index.html
-
-
 ![API 명세서](image/api-명세서.png)
+
 </details>
 
+---
+
+### 📊테스트 결과
 <details>
 <summary><strong>nGrinder 테스트 결과</strong></summary>
 
@@ -191,10 +195,11 @@ Run time: 3m
 (CPU 사용률, 메모리 사용률, HTTP 트래픽 감시 등등)
 </details>
 
+---
 
 ##  📍 주요 기능
 
-<p style="font-size: 20px">Life Cycle</p>
+<p style="font-size: 30px">Life Cycle</p>
 
 ![LifeCycle](image/LifeCycle.png)
 

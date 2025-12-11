@@ -20,7 +20,6 @@ import org.springframework.security.web.access.intercept.AuthorizationFilter;
 @Configuration
 @RequiredArgsConstructor
 public class WebSecurityConfig {
-
     private final JwtTokenUtils jwtTokenUtils;
     private final OAuth2SuccessHandler oAuth2SuccessHandler;
     private final OAuth2UserServiceImpl oAuth2UserService;
